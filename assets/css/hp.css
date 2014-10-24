@@ -1,0 +1,75 @@
+.popup {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 900px;
+    height: 400px;
+    position: fixed;
+    left: 200px;
+    top: 300px;
+    z-index: -9999;
+}
+
+.show {
+    z-index: 9999;
+}
+
+.popup #closebtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: url('../img/close-button.png') no-repeat center center;
+    width: 25px;
+    height: 25px;
+    opacity: 0.85;
+
+}
+
+.legowrapper {
+    background-color: lightgrey;
+}
+
+.barasus {
+    background-color: #768082;
+    position: relative;
+}
+
+.barasus h1::first-letter {
+    color: #F9D62E;
+}
+
+.barasus div {
+    float: left;
+}
+
+.img_thumbnail ul {
+    list-style-type: none;
+}
+
+.img_thumbnail ul li {
+    margin-bottom: 10px;
+}
+
+.firstset {
+    margin-top: 20px;
+}
+.legoset {
+    margin-bottom: 20px;
+    background-color: #fff;
+
+}
+
+.legoset img {
+    width: 500px;
+    height: auto;
+}
+
+.lowres img {
+    width: 100px;
+    height: auto;
+    border: 1px solid lightgrey;
+}
+
+.lowres img:hover {
+    border: 1px solid #0D69AB;
+}
